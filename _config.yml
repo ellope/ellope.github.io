@@ -1,0 +1,52 @@
+
+# Syntax highlighting
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+permalink:           /:title
+relative_permalinks: true
+
+# Setup
+timezone:            your timezone # eg. Asia/Kathmandu
+locale:              en_us
+name:				 ellope
+title:               ellope blog
+tagline:             'tagline'
+description:         'description'
+url:                 
+rss:                 rss feed url
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
+icon:                /assets/img/icon.png [best 300px X 300px]
+disqus:              ellopeblog
+
+author:
+  name:           	 ellope
+  url:            	 ellope.com
+  facebook:          
+  twitter:           
+  google_plus:       
+  linkedin:          
+  dribbble:          
+  pinterest:         
+  kiva:              
+
+fb_admins:           
+fb_appid:            
+
+# Server
+destination:      	 ./_site
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:             	 9001
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"

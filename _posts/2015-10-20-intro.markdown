@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Intro"
+date:   2015-10-20 20:40:00
+last_modified_at:  2015-10-20 20:40:00
+excerpt: "introduction to ellope blog..."
+categories: start
+image:
+  feature: intro-bg.jpg
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: lighter
+syntaxHighlighter: no
+---
+
+This is our very first post for introduction.
